@@ -1,0 +1,71 @@
+body {
+  background-color: #fac814;
+  background-image: url("../images/bg.001.gif");
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  background-attachment: local;
+  background-position: center;
+  background-size: 200px 200px ;
+  height: 2000px
+}
+#avatar{
+  float: right;
+  position: fixed;
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+}
+#avatar_ico{
+  /* color: #fac814; */
+  background-image: url("../images/Zluken Sobaken.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+  background-attachment: local;
+  width: 200px;
+  height: 200px;
+  cursor: grab;
+
+
+}
+#nickname{
+  font-family: monospace;
+  font-size: 30px;
+  float: left;
+  color: white;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+#links{
+    display: flex;
+    margin-top: 250px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.link {
+  color: #6d6d6c;
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+#bottomscreen {
+  position: local;
+  float: right;
+  right: 20px;
+  bottom: 20px;
+  width: 200px;
+  height: 200px;      display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/haha.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+  background-attachment: local;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Hornost">
+    <meta name="description" content="My visit card">
+    <meta name="keywords"
+    content="Noise">
+    <link rel="stylesheet" href="css/noisegenerator.css">
+    <title> NoiseGenerator </title>
+  </head>
+  <body>
+
+    <div id="head">
+      <canvas id="noise_square" width="8" height="8"></canvas>
+      <br>
+      <input type="text" name="config_field" value='{"colors":["255, 255, 255*16","128, 128, 128*12","0, 0, 0*7"],"size_x":8,"size_y":8}' id="config_field" size="70">
+      <br>
+      <button type="button" name="button" onclick="draw('noise_square',document.getElementById('config_field').value,true)">Generate</button>
+    </div>
+    <div id="center">
+      <canvas id="today_noise_square" width="8" height="8"></canvas>
+      <div id="pedestal"></div>
+    </div>
+  </body>
+  <script src="js/noisegenerator.js"></script>
+</html>

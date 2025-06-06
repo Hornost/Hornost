@@ -1,0 +1,47 @@
+body {
+  background-color: #1c1c1c;
+}
+
+#center{
+  display: flex;
+  position: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+#noise_square{
+  float: left;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  height: 100px;
+  width: 100px;
+}
+#today_noise_square{
+  float: left;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  height: 100px;
+  width: 100px;
+}
+#pedestal{
+  float: right;
+  position: absolute;
+  background-image: url("../images/pedestal.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  width: 300px;
+  height: 300px;
+  top: 70px;
+  background-size: 200px 250px;
+}
